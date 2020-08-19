@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- 定义别名
+    <typeAliases>
+        <package name="com.yiidian.domain"/>
+    </typeAliases>
+    -->
+
+    <!-- 1.数据库连接信息-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="jdbc"/>
+            <dataSource type="pooled">
+                <property name="url" value="jdbc:mysql://localhost:3306/orm_learn?characterEcndoing=utf8"/>
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="username" value="hxw"/>
+                <property name="password" value="hxw"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 2.关联Dao映射文件 -->
+    <!-- 2.1 方式一：关联CustomerDao.xml
+    <mappers>
+        <mapper resource="mybatis/learn/dao/CustomerDao.xml"/>
+    </mappers>
+    -->
+    <!-- 2.2 方式二：关联接口，支持注解，xml映射文件必须和Dao映射接口放在同一个目录且同名
+    <mappers>
+        <mapper class="mybatis.learn.dao.CustomerDao"/>
+    </mappers>
+     -->
+    <!-- 2.3 方式三：包扫描，支持注解xml映射文件必须和Dao映射接口放在同一个目录且同名 -->
+    <mappers>
+        <package name="mybatis.learn.dao"/>
+    </mappers>
+
+</configuration>

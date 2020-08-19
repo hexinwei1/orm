@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.19.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ehcache-core-2.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.19.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-logging-3.3.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jandex-2.0.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/byte-buddy-1.10.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-c3p0-5.4.19.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-ehcache-5.4.19.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/geronimo-jta_1.1_spec-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ehcache-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-entitymanager-5.4.19.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/classmate-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/classmate-1.5.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-ehcache-5.4.19.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-c3p0-5.4.19.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mchange-commons-java-0.2.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.22-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/c3p0-0.9.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-entitymanager-5.4.19.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
